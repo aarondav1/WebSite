@@ -175,5 +175,3 @@ serán usados.
 * 8.09 Reconocer que las violaciones personales de este código son incongruentes con ser un ingeniero de
 software profesional.
 
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
