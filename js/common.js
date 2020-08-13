@@ -32,16 +32,6 @@ $(document).ready(function() {
     searchClose();
   });
 
-  function menuOpen() {
-    menuList.addClass("is-open");
-    headerOverlay.addClass("is-visible");
-  }
-
-  function menuClose() {
-    menuList.removeClass("is-open");
-    headerOverlay.removeClass("is-visible");
-  }
-
   function searchOpen() {
     searchBox.addClass("is-visible");
   }
