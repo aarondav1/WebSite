@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text style="cursor: move;" transform="matrix(4.2982970496788635,0,0,2.025409259454989,-446.7500665798546,-267.2519034306573) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_1" y="264.51882" x="125.69399" stroke-width="0" fill="#5B9BA2">Introducción a</text>
+  <text style="cursor: move;" stroke="null" transform="matrix(2.2910661697387695,0,0,1.8508414807420903,-338.66856479644775,-248.42066841247802) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_3" y="314" x="205" stroke-width="0" fill="#2D6862">la ingenieria de software</text>
+ </g>
+</svg>
