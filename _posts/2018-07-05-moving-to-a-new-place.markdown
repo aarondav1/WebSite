@@ -1,51 +1,79 @@
 ---
 layout: post
-title:  Moving to a new place
-date:   2018-07-05 15:01:35 +0300
+title:  Estándares relacionados con el proceso software
+date:   2020-08-13 15:01:35 +0300
 image:  05.jpg
-tags:   Home
+#tags:   Home
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+Los estándares de calidad de software hacen parte de la ingeniería de software, utilización de estándares y metodologías para el diseño, programación, prueba y análisis del software desarrollado, con el objetivo de ofrecer una mayor confiabilidad, mantenibilidad en concordancia con los requisitos exigidos, con esto se eleva la productividad y el control en la calidad de software, parte de la gestión de la calidad se establecen a mejorar su eficacia y eficiencia.
 
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
+Existen diferentes modelos de calidad del software que permiten un proceso de mejora continua con su implementación, cada modelo cuenta con una estructura y caracteristicas diferentes.
 
-## Are you crazy? I can't swallow that.
+## IEEE/EIA (ISO/IEC) 12207
 
-Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
+ISO/IEC 12207 - Information Technology / Software Life Cycle Processes es el Estándar para los procesos de ciclo de vida del software de la organización, Este estándar se concibió para aquellos interesados en adquisición de software, así como desarrolladores y proveedores. El estándar indica una serie de procesos desde la recopilación de requisitos hasta la culminación del software.
 
-1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
-2. Fry, we have a crate to deliver.
-3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
+### Estructura
 
-### Why not indeed!
+La estructura del estándar ha sido concebida de manera que pueda ser adaptada a las necesidades de cualquiera que lo use. Para conseguirlo, el estándar se basa en dos principios fundamentales: modularidad y responsabilidad. Con la modularidad se pretende conseguir procesos con un mínimo acoplamiento y una máxima cohesión. En cuanto a la responsabilidad, se busca establecer un responsable para cada proceso, facilitando la aplicación del estándar en proyectos en los que pueden existir distintas personas u organizaciones involucradas, no importando el uso que se le dé a este.
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
+### Procesos
 
-* Shinier than yours, meatbag.
-* This is the worst part. The calm before the battle.
-* Ooh, name it after me!
+Los procesos se clasifican en tres tipos: procesos primarios, procesos de soporte y procesos organizacionales. Los procesos de soporte y de organización deben existir independientemente de la organización y del proyecto ejecutado. Los procesos principales se instancian de acuerdo con la situación particular. Vamos a poder utilizar los procesos de soporte desde un proceso primario, o incluso desde otro de soporte. El estándar 12207 va a identificar a los procesos organizacionales como los que deben realizarse en el contexto de la organización que va a ejecutar dicho proyecto, normalmente se aplican de forma común desde múltiples proyectos.
+ 
+ __Procesos principales:__
+* Adquisición.
+* Suministro.
+* Desarrollo.
+* Operación.
+* Mantenimiento.
 
-Say what? Throw her in the brig. Hey, you add a one and two zeros to that or we walk! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Ow, my spirit! Who's brave enough to fly into something we all keep calling a death sphere?
+__Procesos de soporte:__
+* Documentación
+* Gestión de la configuración.
+* Aseguramiento de calidad.
+* Verificación y validación.
+* Auditoría.
+* Resolución de problemas.
 
-Hey, you add a one and two zeros to that or we walk! You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It's okay, Bender. I like cooking too. Hey, what kinda party is this? There's no booze and only one hooker.
+__Procesos de la organización:__
+* Gestión.
+* Infraestructura.
+* Mejora.
+* Recursos Humanos.
+ 
+## SWEBOK
+ 
+El SWEBOK (Software Engineering Body of Knowledge) es una guía que intenta acumular todo el conocimiento sobre la ingeniería de software que en teoría debería ser dominado por los profesionales del software. El SWEBOK fue iniciado por el IEEE Computer Society en 1998, y la versión de prueba se publicó en el 2001. El propósito de la guía al conocimiento de la ingeniería del software es proporcionar una caracterización validada y consensuada de los límites de la disciplina de la ingeniería del software, y proporcionar un acceso a los temas del cuerpo de conocimiento apoyando la disciplina. El cuerpo de conocimiento está dividido en 10 áreas del conocimiento, cuyas descripciones están diseñadas para discernir entre varios conceptos importantes, permitiendo al lector encontrar rápidamente los temas de interés. La guía es necesariamente incompleta en el sentido que los expertos en software deben tener amplios conocimientos de otros temas, como la informática, la gestión de proyectos y la ingeniería en sistemas, los cuales se encuentran fuera de la ingeniería de software. En la guía se define a la ingeniería de software como: “Aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento del software, es decir, la aplicación de la ingeniería al software.” La guía se estableció con los siguientes cinco objetivos:
+1.	Promover una visión consistente de la ingeniería de software en el mundo.
+2.	Clarificar la situación – y definir fronteras – de la ingeniería de software con respecto a otras disciplinas como la informática, gestión de proyectos, ingeniería informática y matemáticas.
+3.	Caracterizar los contenidos de la disciplina de la ingeniería de software.
+4.	Proporcionar al cuerpo de conocimiento de la ingeniería de software con los temas de interés.
+5.	Proporcionar una base para el desarrollo de planes de estudio, certificaciones individuales y materiales para licencias.
 
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
+## CMMI
 
-Ummm…to eBay? But I know you in the future. I cleaned your poop. I'm just glad my fat, ugly mama isn't alive to see this day. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
+CMMI es un modelo que contiene las mejores prácticas y que provee a las organizaciones de aquellos elementos que son esenciales para que los procesos de negocio de las mismas sean efectivos.
+El modelo CMMI fue inicialmente desarrollado para los procesos relativos al desarrollo e implementación de Software por la Carnegie-Mellon University. Este vio la luz por primera vez en el año 1987 como Capability Maturity Model CMM. Dicho nombre, tanto como los cinco niveles de la representación por etapas, están inspirados en el modelo de madurez Manufacturing Maturity Model de Crosby.
+En principio el modelo CMM era aplicado en programas de defensa, pero lo cierto es que este ha logrado gran aceptación, tan es así que ha sido sometido a varias revisiones e iteraciones. Debido a su éxito se llevó a cabo el desarrollo de modelos CMM para para diversos ámbitos más allá del software.
+Este modelo es demasiado importante, debería de ser implementado por las empresas que constantemente realizan desarrollo de software, ya que cada vez es más grande la demanda de los sistemas, y es necesario estar preparado organizacionalmente para poder satisfacer las demandas con un nivel de respuesta altamente calificado.
 
-Your best is an idiot! Fry, you can't just sit here in the dark listening to classical music. And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it!
+### Estructura
 
-You, a bobsleder!? That I'd like to see! I'm Santa Claus! There's no part of that sentence I didn't like! Noooooo! I can explain. It's very valuable.
+* Nivel 1: No se tienen procesos definidos
+* Nivel 2: Metodologías y procesos para dar seguimiento a proyectos, aplicar costos, actividades por realizar y obtener funcionalidad.
+* Nivel 3: Se adaptan actividades de administración de ingeniería en forma documentada y estandarizada
+* Nivel 4: Los proyectos ya son controlados por medio de métricas, y su control ya es legítimo y confiable.
+* Nivel 5: La mejora continua de sus procesos mediante la comparación con sistemas ya elaborados anteriormente, Cada vez se obtienen más técnicas para el mejor desarrollo de software.
 
-I'm Santa Claus! Is the Space Pope reptilian!? Who's brave enough to fly into something we all keep calling a death sphere? I had more, but you go ahead.
+## PMBOK
+Project Management Body of Knowledge, Como su nombre lo sugiere describe un conjunto de conocimientos y de prácticas aplicables a cualquier situación que requiera formular, las cuales han sido concebidas luego de evaluación y consenso entre profesionales pares sobre su valor y utilidad.
 
-It doesn't look so shiny to me. Kif might! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil", I mean Robot Devil. And by "metaphorically", I mean get your coat.
+La Guía del PMBOK es importante porque provee un marco de referencia formal para desarrollar proyectos; porque permite guiar y orientar a quienes tienen a su cargo proyectos acerca de la forma de avanzar en los mismos y los pasos que deben seguir necesarios para alcanzar los resultados y objetivos propuestos.
 
-Check it out, y'all. Everyone who was invited is here. Anyone who laughs is a communist! You're going to do his laundry? Michelle, I don't regret this, but I both rue and lament it.
-
-Bender, we're trying our best. I daresay that Fry has discovered the smelliest object in the known universe! Oh, you're a dollar naughtier than most. Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.
-
-You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
-
-Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
+La guía PMBOK identifica 5 macroprocesos en los que se incluyen los 47 procesos estándares que intervienen en cualquier proyecto:
+1. Inicio: conformado por 2 procesos menores, cuyo fin es definir un nuevo proyecto o una nueva fase de ejecución del mismo, y obtener la autorización necesaria para llevarlo a cabo.
+2. Planificación: este macroproceso incluye 24 procesos destinados a la concreción y el establecimiento de objetivos, y al diseño de las estrategias más adecuadas para lograr su consecución.
+3. Ejecución: incluye 8 procesos implicados en el correcto desempeño, acorde a la estrategia adoptada, de las actividades definidas en el proyecto para la consecución de los fines establecidos.
+4. Control y monitorización: once procesos se inscriben en este macroproceso, todos ellos relacionados con la supervisión y la evaluación del desempeño del proyecto.
+5. Cierre: último macroproceso, formado por dos procesos menores, que cierra el proyecto en su totalidad o alguna fase del mismo refiriendo el grado de aceptación y la satisfacción con el resultado obtenido.

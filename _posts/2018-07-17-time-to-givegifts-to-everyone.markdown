@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Ciclo de vida del software y Paradigmas de desarrollo
-date:   2018-07-17 15:01:35 +0300
+date:   2020-08-13 15:01:35 +0300
 image:  04.jpg
 #tags:   Life
 ---
@@ -44,7 +44,7 @@ __*El paradigma de construcción de prototipos tiene tres pasos:*__
 * Construir y revisar la maqueta (prototipo). 
 * El cliente prueba la maqueta (prototipo) y lo utiliza para refinar los requisitos del software. 
 
-__*Este modelo es útil cuando:__*
+__*Este modelo es útil cuando:*__
 * El cliente no identifica los requisitos detallados. 
 * El responsable del desarrollo no está seguro de la eficiencia de un algoritmo, sistema operativo o de la interface hombre-máquina. 
 
