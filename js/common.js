@@ -4,7 +4,6 @@ $(document).ready(function() {
   var headerOverlay = $(".header__overlay"),
     menuOpenIcon = $(".nav__icon-menu"),
     menuCloseIcon = $(".nav-icon__close"),
-    menuList = $(".main-nav"),
     searchOpenIcon = $(".nav__icon-search"),
     searchCloseIcon = $(".search__close"),
     searchBox = $(".search");
