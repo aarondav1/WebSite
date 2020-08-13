@@ -2,8 +2,6 @@ $(document).ready(function() {
   'use strict';
 
   var headerOverlay = $(".header__overlay"),
-    menuOpenIcon = $(".nav__icon-menu"),
-    menuCloseIcon = $(".nav-icon__close"),
     searchOpenIcon = $(".nav__icon-search"),
     searchCloseIcon = $(".search__close"),
     searchBox = $(".search");
@@ -11,13 +9,7 @@ $(document).ready(function() {
   /* =======================
   // Menu and Search
   ======================= */
-  menuOpenIcon.click(function() {
-    menuOpen();
-  })
 
-  menuCloseIcon.click(function () {
-    menuClose();
-  })
 
   searchOpenIcon.click(function () {
     searchOpen();
